@@ -128,7 +128,7 @@ values
     ),
     (
         (select id from "COACH" where user_id = (select id from "USER" where email = 'muscle@hexschooltest.io')),
-        (select id from "SKILL" where name = '瑜珈')
+        (select id from "SKILL" where name = '瑜伽')
     ),
     (
         (select id from "COACH" where user_id = (select id from "USER" where email = 'starplatinum@hexschooltest.io')),
